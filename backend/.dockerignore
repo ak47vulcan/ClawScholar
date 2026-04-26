@@ -1,0 +1,24 @@
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+*.pyc
+*.pyo
+*.pyd
+
+.DS_Store
+
+# Git metadata
+.git/
+.gitignore
+
+# Editor/IDE
+.idea/
+.vscode/
+
+# Node (defensive; repo has frontend but not in backend context)
+node_modules/
+
+# Large / runtime artifacts
+uploads/

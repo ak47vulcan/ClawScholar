@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.env
+!.env.example
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+Präsentation
+
+# Node
+node_modules/
+.next/
+out/
+.npm
+.yarn/
+*.tsbuildinfo
+next-env.d.ts
+
+# Docker
+.docker/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Uploads
+backend/uploads/
+
+# Database
+*.db
+*.sqlite3
+
+# Alembic
+# (keep versions/)
+
+# Local-only docs / competition materials (do not commit to GitHub)
+ClawScholar_Proposal_English.pdf
+OpenClaw_比赛.pdf
+prompt
+docs/requirements_from_pdfs.md
+
+# Presentation and binary assets
+*.pptx
+~$*
+Screen2/
+
+# Cursor IDE config
+.cursor/
+
+# Build and temp artifacts
+tmp/
